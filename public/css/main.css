@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.876);
+}
+
+.navbar {
+    width: 100%;
+    height: 120px;
+    background: rgb(177, 117, 7);
+    color: orange;
+
+}
+
+.navbar ul {
+    margin-right: 30px;
+    float: right;
+
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.navbar .logo a {
+    margin-left: 30%;
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px 10px;
+}
+
+.navbar ul li a:hover {
+    color: orange;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    line-height: 70px;
+}
+
+.navbar ul {
+    background-color: rgba(0, 0, 0, 0.879);
+    margin-top: 10px;
+
+}
+
+.container {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+button {
+    margin-top: 100%;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+}
+
+.one_cikanlar {
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.ceyrek {
+    border: white solid;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.resim_aciklama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    min-height: 30px;
+    color: grey;
+    width: 100%;
+}
+.kategoriler {
+    justify-content: end;
+    color: grey;
+}
+.kategoriler i {
+    color: orange;
+}
+.kategori_baslik{
+    background-color: white;
+
+}
+
+i{
+    margin-right: 2px;
+}

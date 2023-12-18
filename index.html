@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="public/css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header class="navbar">
+    <div class="logo">
+        <a href="#">adınız</a>
+    </div>
+    <ul>
+        <li><a href="#" class="active">Anasayfa</a></li>
+        <li><a href="#">Kayıt ol</a></li>
+        <li><a href="#">text</a></li>
+        <li><a href="#">text</a></li>
+        <li><a href="#">text</a></li>
+    </ul>
+</header>
+<div class="container">
+    <div class="table-container">
+        <div class="one_cikanlar">
+            <div class="ceyrek">
+                <img src="/public/images/215x315.gif">
+                <div class="resim_aciklama">IMAGE CAPTION HERE
+                </div>
+            </div>
+            <div class="ceyrek">
+                <img src="/public/images/215x315.gif">
+                <div class="resim_aciklama">IMAGE CAPTION HERE
+                </div>
+            </div>
+            <div class="ceyrek">
+                <img src="/public/images/215x315.gif">
+                <div class="resim_aciklama">IMAGE CAPTION HERE
+                </div>
+            </div>
+            <div class="ceyrek">
+                <img src="/public/images/215x315.gif">
+                <div class="resim_aciklama">IMAGE CAPTION HERE
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3 style="color: white;margin-bottom: 5px">Kategoriler</h3>
+            <hr>
+            <ul class="kategoriler">
+                <li id="kategori_baslik_1" class="kategori_baslik"><i class="fa fa-caret-right"  aria-hidden="true"></i>
+                    Lorem.
+                    <div id="kategori_alt_baslik_1">
+                        test
+                    </div>
+                </li>
+                <li>Nobis?</li>
+                <li>Facilis?</li>
+                <li>Recusandae.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+
+</footer>
+<script>
+    document.getElementById("kategori_baslik_1").onclick = function () {
+        let kategori_alt_baslik_1 = document.getElementById("kategori_alt_baslik_1");
+        if (kategori_alt_baslik_1.style.display === "block") {
+            kategori_alt_baslik_1.style.display = "none";
+        } else {
+            kategori_alt_baslik_1.style.display = "block";
+        }
+    };
+</script>
+</body>
+
+
+</html>
